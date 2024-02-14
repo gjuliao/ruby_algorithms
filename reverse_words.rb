@@ -10,11 +10,11 @@ string_array = [
   'Javascript best incolearn Today55%'
 ]
 
-str = 'I am in vacation'
+word = 'I am in vacation'
 
-def reverse_words(str)
+def reverse_words(word)
   ## empty comment
-  str.split.reverse.join(' ')
+  word.split.reverse.join(' ')
 end
 
 describe 'sentence reverser' do
