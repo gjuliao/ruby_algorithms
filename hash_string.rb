@@ -8,9 +8,6 @@ class Hash
     end
 end
 
-hash = { topic: 'baseball', team: 'astros' }
-puts hash.param_converter
-
 describe 'HTML param converter' do
     it 'Adds an HTML param converter to hash class' do
         hash = { topic: 'baseball', team: 'astros' }
