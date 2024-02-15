@@ -22,4 +22,3 @@ describe 'New max method' do
     expect(largest_item(test_array)).to eq(90)
   end
 end
-
