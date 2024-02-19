@@ -17,4 +17,3 @@ describe 'Odd selector' do
         expect(Array(1..10).odd_selector).to eq([1, 3, 5, 7, 9])
     end
 end
-
