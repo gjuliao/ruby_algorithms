@@ -12,12 +12,6 @@ def pseudo_random(num)
     end
 end
 
-puts pseudo_random(25).resume
-puts pseudo_random(25).resume
-puts pseudo_random(25).resume
-puts pseudo_random(10).resume
-puts pseudo_random(8).resume
-puts pseudo_random(43).resume
 
 describe 'Pseudo random generator' do
     it 'Creates the same sequence of random numbers' do
