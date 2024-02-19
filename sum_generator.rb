@@ -10,6 +10,6 @@ end
 puts sum_generator(15)
 describe 'Dynamic sum' do
     it 'Outputs a sum of digits, ranging from 0 through argument value' do
-        expect(sum_generator(50)).to eq(55)
+        expect(sum_generator(10)).to eq(55)
     end
 end
